@@ -27,7 +27,7 @@ Infinite scroll 6 <br />
 
 ## Description
 
-List all the posts in your UI and show titles of the posts consuming JSONPlaceholde API. <br />
+List all the posts in UI and show titles of the posts consuming JSONPlaceholde API. <br />
 Possibility of filtering post by keyword. <br />
 Perform all crud operation on Post. Creat, Update and Delete are done only locally.
 Post page has implemented infinite scroll on posts.

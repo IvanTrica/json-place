@@ -19,7 +19,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Technologies used:
+## Technologies used
 
 Angular 6 <br />
 Bootstrap 4 <br />
@@ -30,7 +30,7 @@ Infinite scroll 6 <br />
 List all the posts in your UI and show titles of the posts consuming JSONPlaceholde API. <br />
 Possibility of filtering post by keyword. <br />
 Perform all crud operation on Post. Creat, Update and Delete are done only locally.
-Post page has implemented infinite scroll og posts.
+Post page has implemented infinite scroll on posts.
 
 ## Possible improvements
 

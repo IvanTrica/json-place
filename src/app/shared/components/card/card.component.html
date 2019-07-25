@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <div class="item-card">
+        <a class="btn btn-danger delete" (click)="deletePost(cardId)">X</a>
+        <h2 title="Show more" class="item-card-title" (click)="test.isClicked = !test.isClicked">Title: {{ cardTitle }}
+        </h2>
+        <p class="item-card-body" (click)="test.isClicked = !test.isClicked"
+            [ngClass]="test.isClicked ? 'expande': 'colapsed'">{{ cardBody }}
+        </p>
+        <p><span class="author">Author: {{ cardUser }}</span></p>
+        <div class="item-card-button">
+            <a class="btn btn-primary" (click)="editPost(cardId)">Edit</a>
+        </div>
+    </div>
+</div>

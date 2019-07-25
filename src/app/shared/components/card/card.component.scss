@@ -1,0 +1,83 @@
+.wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.wrapper:focus {
+    outline: 0;
+}
+
+.item-card {
+    background: white;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 19px;
+    border: 2px solid gray;
+    position: relative;
+    transition-timing-function: ease-in;
+    transition: 0.25s;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .16);
+    z-index: 9999;
+    padding: 10px 15px;
+
+    &:hover {
+        box-shadow: -10px 15px 30px -12px gray;
+        background: gray;
+        transform: translate(5px, -10px);
+        transition-timing-function: ease-out;
+        transition: 0.25s;
+        transition-delay: 0s;
+    }
+
+    .delete {
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: white;
+        padding: 2px 5px;
+    }
+
+    p.item-card-body {
+        width: 100%;
+        line-height: 1.4em;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .colapsed {
+        display: none;
+    }
+
+    .expande {
+        display: flex;
+        display: -webkit-box;
+    }
+
+    span.author {
+        font-size: 10px;
+        color: lightgray;
+    }
+}
+
+
+
+
+.item-card-title {
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.item-card-button {
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+
+    a {
+        cursor: pointer;
+    }
+}

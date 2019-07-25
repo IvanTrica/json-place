@@ -25,6 +25,8 @@ Angular 6 <br />
 Bootstrap 4 <br />
 Infinite scroll 6 <br />
 
+Modular architecture. With lazy loading for improving app performance.
+
 ## Description
 
 List all the posts in UI and show titles of the posts consuming JSONPlaceholde API. <br />

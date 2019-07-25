@@ -1,0 +1,6 @@
+<div class="input-group mb-3">
+    <input (keyup)="inputSearch(search.value)" #search type="text" class="form-control" required>
+    <div class="input-group-append">
+        <button type="button" (click)="inputSearch(search.value)" class="btn btn-outline-secondary">Search</button>
+    </div>
+</div>

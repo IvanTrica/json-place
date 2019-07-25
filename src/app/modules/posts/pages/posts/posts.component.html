@@ -1,0 +1,31 @@
+<div class="container">
+    <app-input-field (forSearch)="inputSearch($event)"></app-input-field>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container">
+                <div><button class="btn btn-primary" (click)="goToNewPost()">Add New Post</button></div>
+                <div 
+                    infiniteScroll 
+                    [infiniteScrollDistance]="2" 
+                    [infiniteScrollThrottle]="50"
+                    (scrolled)="onScroll()"  class="row hidden-md-up">
+                    <ng-container *ngIf="(postsArray  | cardFilter:  searchTerm : 'title').length > 0; else noData">
+                        <div class="col-md-4"
+                            *ngFor="let item of postsArray | cardFilter:  searchTerm : 'title'">
+                            <app-card   
+                                (getIdForRemove)="deletePost($event)" 
+                                (getIdForEdit)="editPost($event)"
+                                [cardId]="item.id"
+                                [cardUser]="item.userName" 
+                                [cardTitle]='item.title' 
+                                [cardBody]="item.body"></app-card>
+                        </div>
+                    </ng-container>
+                    <ng-template #noData>
+                        <h1>No data</h1>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

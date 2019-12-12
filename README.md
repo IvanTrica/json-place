@@ -38,7 +38,7 @@ Post page has implemented infinite scroll on posts.
 
 Develop some kind of notification for handle error. Now if error occurs it will navigate user to 404 page without explanation
 
-## Add bookmark
+## Preview
 
-[![Add bookmark](https://ibb.co/xqsGh0F)]
+[![Grayscale Preview](https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
 

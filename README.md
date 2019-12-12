@@ -40,5 +40,5 @@ Develop some kind of notification for handle error. Now if error occurs it will 
 
 ## Preview
 
-[![Grayscale Preview](https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
+[![Grayscale Preview](https://ibb.co/xqsGh0F)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
 

@@ -40,4 +40,4 @@ Develop some kind of notification for handle error. Now if error occurs it will 
 
 ## Preview
 
-[![Bookmark](https://i.ibb.co/chvtJHY/add.png)]
+[![Bookmark](https://i.ibb.co/chvtJHY/add.png)](https://i.ibb.co/chvtJHY/add.png)

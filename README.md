@@ -1,43 +1,53 @@
-# JSONPlaceholder App
+# Avaloq
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2. <br />
-This mini project is a job test project done to show skills of developer.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
 ## Development server
 
+Run `npm install` to install all dependencies.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Technologies used
+## Solution
 
-Angular 6 <br />
-Bootstrap 4 <br />
-Infinite scroll 6 <br />
+1. Define the store for application.
+2. List of all bookmarks groupped by 'group' property .
+3. Add new bookmark using a form with basic validation.
+4. Delete bookmark by click in the list.
+5. Implement Toastify for notifications.
 
-Modular architecture. With lazy loading for improving app performance.
+## Library used
 
-## Description
+On this projct i have used:
 
-List all the posts in UI and show titles of the posts consuming JSONPlaceholde API. <br />
-Possibility of filtering post by keyword. <br />
-Perform all crud operation on Post. Creat, Update and Delete are done only locally.
-Post page has implemented infinite scroll on posts.
+- Angular 8
+- Angular Material for user interface
+- NgRx for managing state
 
-## Possible improvements
+## Group by
 
-Develop some kind of notification for handle error. Now if error occurs it will navigate user to 404 page without explanation
+[![Add Bookmark](https://i.ibb.co/nMh4npP/group.png)](https://i.ibb.co/nMh4npP/group.png)
 
-## Preview
+## Add bookmark
 
-[![Bookmark](https://i.ibb.co/chvtJHY/add.png)](https://i.ibb.co/chvtJHY/add.png)
+[![Add Bookmark](https://i.ibb.co/chvtJHY/add.png)](https://i.ibb.co/chvtJHY/add.png)
+
+## Remove bookmark
+
+[![Add Bookmark](https://i.ibb.co/zfjqrkK/delete.png)](https://i.ibb.co/zfjqrkK/delete.png)
+
+## Form
+
+[![Add Bookmark](https://i.ibb.co/m5kggTL/form.png)](https://i.ibb.co/m5kggTL/form.png)
